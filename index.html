@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- iconscout cdn -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- _navbar -->
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Carousel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light text-light" href="#">Link</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled text-light">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- _header -->
+    <div class="container p-5">
+      <div class="row header">
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <img
+            class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt=""
+            width="140"
+            height="140"
+          />
+          <h2>Heading</h2>
+          <p class=" text-center">
+            Some representative placeholder content for the three columns of text below the carousel. This is the first column.
+          </p>
+          <a class="btn btn-secondary" href="#"
+            >View details <i class="uil uil-angle-double-right"></i></i
+          ></a>
+        </div>
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <img
+            class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt=""
+            width="140"
+            height="140"
+          />
+          <h2>Heading</h2>
+          <p class=" text-center">
+            Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+          </p>
+          <a class="btn btn-secondary" href="#">View details <i class="uil uil-angle-double-right"></i></a>
+        </div>
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <img
+            class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt=""
+            width="140"
+            height="140"
+          />
+          <h2>Heading</h2>
+          <p class=" text-center">
+            And lastly this, the third column of representative placeholder content.
+          </p>
+          <a class="btn btn-secondary" href="#">View details <i class="uil uil-angle-double-right"></i></a>
+        </div>
+      </div>
+      <hr class="line" />
+    </div>
+
+    <!-- _content -->
+    <div class="container p-5">
+      <div class="row">
+        <div
+          class="col-md-7 col-sm-12 d-flex flex-column justify-content-center"
+        >
+          <h2 class="featurette">
+            First featurette heading. It'll blow your mind.
+          </h2>
+          <p>
+            Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+          </p>
+        </div>
+        <div
+          class="col-md-5 col-sm-12 d-flex flex-column justify-content-center"
+        >
+          <div class="square"></div>
+        </div>
+        <hr class="line" />
+      </div>
+    </div>
+
+    <!-- _footer -->
+    <footer class="container__footer">
+      <div class="container">
+        <p class="float-end">
+          <a href="#">Back to top</a>
+        </p>
+        <p>
+          &copy; 2017-2018 Company, Inc. <a href="#">Privacy .</a>
+          <a href="=#">Terms .</a>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
